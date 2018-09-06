@@ -14,14 +14,15 @@ public class TestProg {
 	
 	public static void main(String[] args) throws IOException
 	{
-		// first check to see if the program was run with the command line argument
-	    if(args.length < 1) {
-	        System.out.println("Error, usage: java ClassName inputfile");
+		// first check to see if the program was run with the command line argument.
+	    if(args.length < 1)
+	    {
+	        System.out.println("Error, usage: no command line parameter given");
 			System.exit(1);
 	    }
 	    
-	    long X = 0; // input parameter whose primes are required
-	    ArrayList<Long> primes = new ArrayList<Long>();
+	    long X = 0; // input parameter whose primes are required.
+	    ArrayList<Long> primes = new ArrayList<Long>(); // collection of the prime numbers to be returned.
 	   
 		in = new Scanner(new FileInputStream(args[0]));
 

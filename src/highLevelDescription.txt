@@ -2,3 +2,12 @@
 #					Briefly what the program does.							 #
 ##############################################################################
 
+1. The user inputs the upper limit of the prime numbers he needs. The code then
+generates all prime numbers up to that number than stores them onto a text file.
+2. To make things a little bit simpler the user is allowed to give the test
+cases into a text file which is then passed into the program as command line
+parameter.
+3. The output of each test case are then written to a text file in an output
+directory, each text case output is written with the filename as the upper
+limit given to the case.
+4. 
