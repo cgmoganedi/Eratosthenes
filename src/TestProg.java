@@ -25,6 +25,12 @@ public class TestProg {
 	    ArrayList<Long> primes = new ArrayList<Long>(); // collection of the prime numbers to be returned.
 	   
 		in = new Scanner(new FileInputStream(args[0]));
+		
+		if(!in.hasNextLong())
+		{
+			System.out.println("Error, usage: argument was not an integer");
+			System.exit(1);
+		}
 
 		while(in.hasNextLong())
 		{
@@ -32,6 +38,8 @@ public class TestProg {
 			N = new ListOfPrimes(X); // N is an output object that holds all primes less than or equal to X
 		
 			primes = N.fetchPrimes();
+			
+			// Do not forget to modify the path to the appropriate one accordingly
 			outputWriter(primes, "C:/Users/716705/Documents/GitHub/Eratosthenes/src/outputs/" + X);
 		}
 		

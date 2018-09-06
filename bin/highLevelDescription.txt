@@ -2,6 +2,24 @@
 #					Briefly what the program does.							 #
 ##############################################################################
 
+The TestProg class is the one with the main function.
+First it checks if the command line argument is passed.
+
+This command line argument needs to be the path to the file containing the test
+X value cases, this X values need to be integers (or long) written line after
+line in the passed file.
+This is done to stream-line the process of testing multiple cases.
+
+Then the ListOfPrimes class is the one that performs the sieve of Eratosthenes
+algorithm to fine the prime numbers up to the given X value of each line in
+the input file passed on the command line.
+
+Now for each of the test cases (X) a list of the prime numbers are written to
+a text file with then name X. The prime numbers are stored in this files for
+each line of the input. These files are written into the the output directory.
+
+
+{
 1. The user inputs the upper limit of the prime numbers he needs. The code then
 generates all prime numbers up to that number than stores them onto a text file.
 2. To make things a little bit simpler the user is allowed to give the test
@@ -10,4 +28,4 @@ parameter.
 3. The output of each test case are then written to a text file in an output
 directory, each text case output is written with the filename as the upper
 limit given to the case.
-4. 
+}
