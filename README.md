@@ -1,5 +1,6 @@
 # Eratosthenes
 Java program that finds prime numbers for you.
+
 =------------------------------------------Method 1-----------------------------------------------=
 
 Open your terminal and make sure you have git initialsed in your working directory
