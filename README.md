@@ -3,9 +3,9 @@ Java program that finds prime numbers for you.
 
 =------------------------------------------------------------------=
 
-Chuba G. Moganedi
-Sammy Makwana
-Ntokozo Gule
+Chuba G. Moganedi,
+Sammy Makwana,
+Ntokozo Gule,
 Thabang Khoza
 
 =---------------------------Method 1-------------------------------=
